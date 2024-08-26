@@ -1,0 +1,211 @@
+# yaml-language-server: $schema=https://json.schemastore.org/yamllint.json
+
+name:
+  alias: Michael Dawson
+  first: Michael
+  middle: Kenneth
+  last: Dawson
+  suffix: Jr.
+
+education:
+  - degree: Bachelors of Science in Mechanical Engineering
+    university:
+      name: University of Maryland, College Park
+      location: College Park, Maryland
+    date:
+      start: 2016
+      end: 2020
+    gpa: 3.81
+    notes:
+      - Dean's List all semesters
+      - College Park Scholars – Science, Discovery, and the Universe
+      - Spring 2019 – Universidad de Carlos III de Madrid
+  - degree: Masters of Science in Mechanical Engineering
+    university:
+      name: University of Maryland, College Park
+      location: College Park, Maryland
+    date:
+      start: 2020
+      end: 2022
+    advisor:
+      name: Jeffrey W. Herrmann
+      url: https://engineering.catholic.edu/research-and-faculty/faculty-profiles/mechanical/herrmann-jeffrey/index.html
+
+jobs:
+  - title: Mechanical Engineer
+    organization:
+      name: National Institute of Standards and Technology
+      url: https://www.nist.gov/
+    date:
+      start:
+        year: 2022
+      end: Present
+
+  - title: Graduate Research Assistant
+    organization:
+      name: Simulation-Based System Design Lab
+      location: College Park, MD
+    date:
+      start:
+        year: 2021
+        month: August
+      end:
+        year: 2022
+        month: May
+    notes:
+      - Conducted research on image processing systems using Raspberry Pi 4B and NVIDIA Jetson Nano
+      - Formulated novel metareasoning-based thermal throttling techniques for image processing using in Python which can provide a variable throughput and detection precision tradeoff at any desired temperature with throughput efficiency losses of no more than approximately 17% in the worst scenario
+
+  - title: General Engineer, ERAM Systems Engineering
+    organization:
+      name: Federal Aviation Administration
+      location: Washington, D.C.
+    date:
+      start:
+        year: 2020
+        month: June
+      end:
+        year: 2021
+        month: September
+    notes:
+      - Generated validation testing documentation for the En Route Automation Modernization (ERAM) system and Offshore Automation (OA) program management projects by reviewing federal safety regulations and coordinating with testing and validation facilities
+      - Supported inter-organizational meetings to communicate project goals and requirements between ERAM and OA where I developed a systems engineering perspective by working with expert project managers
+      - Investigated and presented information related to potential integration conflicts at OA sites related to upcoming project implementation
+
+  - title: Structural Analysis Intern, Completions Department
+    organization:
+      name: Sikorsky Aircraft
+      location: Coatesville, PA
+    date:
+      start:
+        year: 2019
+        month: June
+      end:
+        year: 2019
+        month: August
+    notes:
+      - Certified and documented the integrity of critical airframe components according to FAA regulations
+      - Analyzed support structure on Sikorsky helicopter variants (S-70i, S-76, S-92, VH-92) by hand
+      - Employed static analysis methodology and standards in various structural design projects
+      - Utilized Spanish language skills in a professional setting and enhanced technical vocabulary
+
+projects:
+  - name: Aquarium Controller
+    course: "ENME605: Advanced Systems Control"
+    date:
+      year: 2021
+      month: November
+    type: Group Project
+    role: Modeler
+    notes:
+      - Designed a state space controller to manage the nitrogen cycle of an aquarium using an observer to estimate state variables such as nitrifying bacterial populations and dissolved oxygen
+      - Built linear and non-linear models of system dynamics using MATLAB and Simulink during the last two weeks of the course with the help of another analyst
+
+  - name: Wind Turbine Placement Analysis
+    course: "ENME610: Engineering Optimization"
+    date:
+      year: 2020
+      month: November
+    type: Group Project
+    role: Optimization Analyst
+    notes:
+      - Optimized series wind turbine placement and diameter to minimize power loss due to wake effects while also minimizing project costs, resulting in a levelized lifetime cost of 52 cents per Watt
+      - Defined the problem formulation by determining appropriate assumptions, parameter values, and physical and natural constraints
+
+  - name: Simulated Autonomous Robot
+    course: "ENSE698A: Autonomous Systems Engineering"
+    date:
+      start:
+        year: 2020
+        month: September
+      end:
+        year: 2020
+        month: November
+    type: Group Project
+    role: Structure and Integration Lead
+    notes:
+      - Used simultaneous localization and mapping (SLAM), machine learning, and robotic simulation software Coppelia to create an autonomous robot capable of performing object retrieval tasks
+      - Integrated simulated structural components with MATLAB
+
+  - name: Kite Controller Mechanism
+    course: "ENME472: Integrated Product and Process Development"
+    date:
+      start:
+        year: 2020
+        month: January
+      end:
+        year: 2020
+        month: May
+    type: Group Project
+    role: Physics Lead and Cost Analyst
+    notes:
+      - Ideated five concept designs for a kite-based wind power generator controller, selected an optimal design based on client decision criteria, and iterated through prototype variants
+      - Composed documentation for physical feasibility, final manufacturing details, and lifetime cost estimates
+
+awards:
+  - name:
+    issuer: Communications Technology Lab, National Institute of Standards and Technology
+    date:
+      year: 2024
+      month: July
+    description:
+
+  - name: James W. Dally Award
+    issuer: The Keystone Program, University of Maryland
+    date:
+      year: 2021
+      month: May
+    description: The Dally Prize was established to recognize an outstanding Teaching Assistant (graduate student) and/or Teaching Fellow (undergraduate student) who provided exemplary instructional support for the Keystone Program in the A. James Clark School of Engineering.The Dally Prize was established to recognize an outstanding Teaching Assistant (graduate student) and/or Teaching Fellow (undergraduate student) who provided exemplary instructional support for the Keystone Program in the A. James Clark School of Engineering.
+  - name: Sayre Undergraduate Teaching Fellow
+    issuer: A. James Clark School of Engineering, University of Maryland
+    date:
+      year: 2019
+      month: July
+    description: This honor is awarded to a Mechanical Engineering undergraduate student who serves as a teaching assistant in a course offered by the Keystone Program or another program implementing a hands-on, project-based teaching approach at the Clark School. Dr. Clifford L. Sayre, Jr. taught engineering courses with hands-on engineering design projects decades before this was common in the curriculum.This honor is awarded to a Mechanical Engineering undergraduate student who serves as a teaching assistant in a course offered by the Keystone Program or another program implementing a hands-on, project-based teaching approach at the Clark School. Dr. Clifford L. Sayre, Jr. taught engineering courses with hands-on engineering design projects decades before this was common in the curriculum.
+
+activities:
+  - role: Mentor
+    organization: America Reads America Counts
+    date:
+      start:
+        year: 2017
+        month: August
+      end:
+        year: 2018
+        month: May
+    notes:
+      - Worked at Beacon Heights Elementary on behalf of the University of Maryland to improve the math skills of 4th-grade students.
+  - role: Member
+    organization: Tau Beta Pi Engineering Honor Society
+    date:
+      start:
+        year: 2018
+        month: November
+      end: present
+  - role: Radio Show Host
+    organization: WMUC Radio Station
+    date:
+      start:
+        year: 2017
+        month: February
+      end:
+        year: 2022
+        month: December
+  - role: Member
+    organization: Engineering Honors Program
+    date:
+      start:
+        year: 2018
+        month: August
+      end:
+        year: 2018
+        month: December
+  - role: Seasonal Volunteer
+    organization: Camp Bright Star
+    date:
+      start:
+        year: 2011
+        month: June
+      end:
+        year: 2016
+        month: June
